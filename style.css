@@ -1,0 +1,241 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* background-color:rgb(166, 128, 128); */
+}
+
+a {
+   text-decoration: none;
+}
+
+/* header section */
+header {
+   background: black;
+   color: red;
+   /* position: fixed; */
+}
+
+.content {
+   height: 90vh;
+}
+
+ul li {
+   list-style: none;
+}
+
+ul li a {
+   margin: 0 10px;
+   padding: 0 10px;
+   color: rgb(201, 151, 240);
+   font-size: 20px;
+   position: relative;
+}
+
+ul li a:hover {
+   background-color: transparent;
+   color: blueviolet;
+   border: none;
+   border-bottom: solid;
+}
+
+.nav-bar {
+   padding: 30px 0;
+}
+
+span {
+   color: rgb(249, 249, 249);
+}
+
+.btn {
+   width: 100px;
+   height: 40px;
+   border-radius: 8px;
+   background-color: red;
+   color: white;
+   border: none;
+   cursor: pointer;
+   letter-spacing: .1rem;
+   margin-right: 1rem;
+}
+
+.btn:hover {
+   background-color: brown;
+   color: wheat;
+   border: 2px solid red;
+}
+
+.btn2 {
+   width: 140px;
+}
+
+.btn3 {
+   width: 100px;
+   height: 40px;
+   background-color: red;
+   border-radius: 8px;
+   border-color: rgb(145, 25, 25);
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+.btn3:hover {
+   scale: 1.1;
+}
+
+.right img {
+   width: 80%;
+   transition: 0.2s ease;
+}
+
+.right img:hover {
+   filter: drop-shadow(16px 16px 20px rgb(216, 110, 110));
+}
+
+h4,
+p {
+   font-family: sans-serif, 'poppins';
+}
+
+/* About section start */
+.about-me-section {
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   background: black;
+   color: red;
+
+}
+
+.about-me-section h2:hover {
+   background-color: transparent;
+   color: blueviolet;
+   border: none;
+}
+
+.about-me-section hr {
+   margin-bottom: 2 rem;
+   border: 2px solid white;
+}
+
+.about-content ul li {
+   color: rgb(185, 227, 102);
+}
+
+/* Education section */
+.education-section {
+   margin: 0;
+   padding: 0;
+   height: 160vh;
+   background-color: black;
+   color: red;
+}
+
+.education-section h2:hover {
+   color: blueviolet;
+   border: none;
+}
+
+.education-content {
+   padding: 50px 80px;
+   align-items: center;
+   padding-top: 15%;
+}
+
+.box h4 {
+   font-size: 19px;
+   padding: 10px 0px 6px;
+   font-family: helvetica;
+   color: #444;
+}
+
+.box p {
+   line-height: 1.2;
+   color: #666;
+   font-size: 17px;
+}
+.box p1 {
+   line-height: 1.2;
+   color: rgb(22, 22, 67);
+   font-size: 17px;
+}
+
+.box h3 {
+   color: blueviolet;
+   position: relative;
+   font-size: 20px; 
+}
+
+.box h3:hover {
+   background-color: transparent;
+   color: blueviolet;
+   border: none;
+
+}
+.education-section .col{
+   padding: 0px 30px;
+   border-left: 2px solid #bababa;
+}
+
+.education-content .box {
+   position: relative;
+   padding: 20px;
+   border: 1px solid #eaeaea;
+   background-color: #ffffff;
+   cursor: pointer;
+   transition: all 0.4s;
+   margin-bottom: 20px;
+   border-bottom: solid;
+   border-color: bisque;
+}
+
+.education-content .box:hover {
+   box-shadow: 0px 3px 20px 0px #fb2e2e;
+   border: 1px solid transparent;
+}
+
+.education-content .box::before {
+   content: '';
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   right: calc(100% + 22px);
+   top: 0;
+   background-color: #11a372;
+   border: 2px solid white;
+}
+.education-section .education-content .box{
+   width: none;
+   background-color: #bababa;
+}
+.education-content{
+   padding-left: 50%;
+}
+
+/* contact-section */
+.contact-section{
+   height: 50vh;
+   background-color: black;
+   color:red;
+}
+.contact-section h2:hover{
+   color: blueviolet;
+ }
+ .contact-section .center p,h3{
+    padding-top: 10px;
+ }
+ .contact-section .content{
+   color: #bababa;
+   margin-top: 40px;
+ }
+ /* footer-sec */
+ footer{
+   background-color: #666;
+   padding-left: 100px;
+   color: burlywood;
+
+}
+
+ 

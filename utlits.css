@@ -1,0 +1,77 @@
+.layout{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.f-w-500{
+    font-weight: 500;
+}
+.f-w-600{
+    font-weight: 600;
+}
+.f-w-700{
+    font-weight: 700;
+}
+
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+.my-t-10{
+    margin-top: 10px;
+}
+.my-t-20{
+    margin-top: 20px;
+}
+.my-t-40{
+    margin-top: 40px;
+}
+
+.font-size{
+    font-size: 130%;
+}
+.font-size2{
+    font-size: 100%;
+}
+
+/* About section */
+.text-center{
+    text-align: center;
+}
+
+.pd-t-30{
+    padding-top: 30px;
+}
+.pd-t-50{
+    padding-top: 50px;
+}
+.w55{
+    width: 55%;
+}
+.w20{
+    width: 20%;
+}
